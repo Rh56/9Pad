@@ -1,5 +1,5 @@
 # 9Pad
-My custom macro pad for hackclubs blueprint. This my first time ever creating a PCB or schematic, so I tried to follow the tutorial while making it my own. If I did this project again I would want to add an encoder and the OLED display, I was just unsure how I would wire them. Overall, I think I learned a lot and really enjoyed making this project! 
+My custom macro pad! I plan to use this to improve my workflow while doing school work or other tasks on my computer by binding the buttons to different shortcuts. This was first time ever creating a PCB or schematic, so I tried to follow the tutorial while making it my own. I definitely learned a ton. If I did this project again I would want to add an encoder and the OLED display, I was just unsure how I would wire them. Overall, I think I learned a lot and really enjoyed making this project! 
 
 BOM:
 - 1x XIAO RP2040
