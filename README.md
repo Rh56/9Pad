@@ -10,7 +10,7 @@ BOM:
 
 Final Model:
 
-<img width="748" height="573" alt="image" src="https://github.com/user-attachments/assets/9f052235-3b8c-451a-a134-847c02936036" />
+<img width="812" height="595" alt="image" src="https://github.com/user-attachments/assets/cf7a8c6a-a938-4137-9419-9bf9b3c6d97e" />
 
 
 Schematic:
