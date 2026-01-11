@@ -5,145 +5,6 @@
 	(uuid "5fddeb03-6c3a-4766-b255-fc09c5ebac1d")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "LED:SK6812MINI"
 			(pin_names
 				(offset 0.254)
@@ -1380,12 +1241,6 @@
 		)
 	)
 	(junction
-		(at 135.89 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0efff5d4-0072-4370-b7bb-3366231b8920")
-	)
-	(junction
 		(at 191.77 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1420,12 +1275,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b076c0e-3ef5-4f08-8196-66a3e19f3d22")
-	)
-	(junction
-		(at 135.89 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6627a305-4d60-4c14-8be7-f45f8bd9747e")
 	)
 	(junction
 		(at 191.77 102.87)
@@ -1607,16 +1456,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 158.75) (xy 151.13 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f9fbb3d-a3ef-4410-a33e-b519eb4408c2")
-	)
-	(wire
-		(pts
 			(xy 163.83 118.11) (xy 163.83 119.38)
 		)
 		(stroke
@@ -1727,16 +1566,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 142.24) (xy 135.89 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a25c529a-12eb-41ba-912f-146334a4ddcb")
-	)
-	(wire
-		(pts
 			(xy 156.21 127) (xy 166.37 127)
 		)
 		(stroke
@@ -1757,16 +1586,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 142.24) (xy 135.89 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afa40b9f-cb5d-458f-a781-d5147be8c6f2")
-	)
-	(wire
-		(pts
 			(xy 166.37 147.32) (xy 181.61 147.32)
 		)
 		(stroke
@@ -1777,16 +1596,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 165.1) (xy 135.89 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4b9d9ec-9090-4300-98e3-f57c3d73f02b")
-	)
-	(wire
-		(pts
 			(xy 175.26 132.08) (xy 175.26 123.19)
 		)
 		(stroke
@@ -1794,16 +1603,6 @@
 			(type default)
 		)
 		(uuid "b82de378-28ac-4acc-98db-e7f3fc75e6db")
-	)
-	(wire
-		(pts
-			(xy 151.13 165.1) (xy 135.89 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8911ebe-a06e-4814-935f-37b6016add75")
 	)
 	(wire
 		(pts
@@ -1894,86 +1693,6 @@
 			(type default)
 		)
 		(uuid "f3af7ba6-de5b-40fc-a241-27b6a9730511")
-	)
-	(wire
-		(pts
-			(xy 151.13 142.24) (xy 151.13 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8091e16-58fc-4ae6-89ff-25587a8dec3f")
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 151.13 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "05546efd-8dca-4767-9c28-c11a057f7f59")
-		(property "Reference" "C1"
-			(at 154.94 153.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 154.94 156.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
-			(at 152.0952 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 151.13 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "04ae637e-dc3f-4e27-88c5-ebb4f6b9ae4d")
-		)
-		(pin "2"
-			(uuid "37aa7a7f-394c-46ac-aa6c-e2871aafc30a")
-		)
-		(instances
-			(project ""
-				(path "/5fddeb03-6c3a-4766-b255-fc09c5ebac1d"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2118,7 +1837,7 @@
 		(dnp no)
 		(uuid "1993ff1f-cc9a-442f-816d-6ff41ead3497")
 		(property "Reference" "D1"
-			(at 144.018 145.288 0)
+			(at 147.828 148.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2126,7 +1845,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 144.018 147.828 0)
+			(at 147.828 150.876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2474,7 +2193,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 135.89 140.208 0)
+			(at 135.89 143.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
